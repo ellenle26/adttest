@@ -31,7 +31,7 @@ const Movies = () => {
               className="thumbnail"
             />
             <h3>THE DURIAN MOVIE PROJECT</h3>
-            <div>The film was supported by "The Netherlands Film Fund</div>
+            <div>The film was supported by "The Netherlands Film Fund"</div>
             <br />
             <a
               href="#"
@@ -54,6 +54,13 @@ const Movies = () => {
           style={{ width: "100%", height: "5%" }}
         >
           x Close
+        </div>
+        <div
+          className="verticalCenter"
+          style={{ width: "100%", height: "15%" }}
+        >
+          <h3>THE DURIAN MOVIE PROJECT</h3>
+          <div>The film was supported by "The Netherlands Film Fund"</div>
         </div>
         <video ref={videoPlayerRef} className="video-js" />;
       </div>
